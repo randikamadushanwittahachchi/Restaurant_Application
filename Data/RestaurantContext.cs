@@ -34,4 +34,8 @@ public class RestaurantContext : DbContext
         base.OnModelCreating(modelBuilder);
     }
 
+    public DbSet<Dish> Dishes { get; set; } = null!;
+    public DbSet<Ingredient> Ingredients { get; set; } = null!;
+    public DbSet<DishIngredient> DishIngredients { get; set; } = null!;
+
 }

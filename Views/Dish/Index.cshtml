@@ -1,0 +1,16 @@
+﻿@using Restaurant.ViewModels
+@model List<DishViewModel>
+@{
+    ViewBag.Title = "Restuarent";
+}
+<div class="container">
+    <h2>Sri Lanakan Authentic Restuarent</h2>
+    @foreach (var dish in Model)
+    {
+        <div class="d-flex flex-column gap-3 mb-3">
+            <img src="@dish.ImageUrl"/>
+            <p>@dish.Name</p>
+            <p>@dish.FormattedPrice</p>
+        </div>
+    }
+</div>
