@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Randika/Project_App/Restaurant/Views/Dish/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Randika/Project_App/Restaurant/Views/Dish/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

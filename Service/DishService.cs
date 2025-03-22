@@ -18,27 +18,27 @@ public class DishService : IDishService
 
     public async Task<Dish> CreateDish(DishViewModel dish)
     {
+
         var model = new Dish
         {
             Name = dish.Name,
             Price = dish.Price,
             ImageUrl = dish.ImageUrl
         };
-        _context.Dishes.Add(model);
+        await _context.Dishes.AddAsync(model);
         await _context.SaveChangesAsync();
         return model;
     }
 
-    public async Task<DishViewModel> GetDish(int id)
+    public async Task<DishViewModel?> GetDish(int id)
     {
-        var dish = await _context.Dishes.Where(d=>d.Id==id).Select(d=>new DishViewModel
+        return await _context.Dishes.Where(d=>d.Id==id).Select(d=>new DishViewModel
         {
             Id = d.Id,
             Name = d.Name,
             Price = d.Price,
             ImageUrl = d.ImageUrl
         }).FirstOrDefaultAsync();
-        return dish;
     }
 
     public async Task<List<DishViewModel>> GetDishes()

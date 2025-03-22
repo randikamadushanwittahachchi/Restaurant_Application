@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|solutionrelative:controllers\\dishcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|c:\\randika\\project_app\\restaurant\\views\\dish\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|solutionrelative:views\\dish\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|c:\\randika\\project_app\\restaurant\\service\\dishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|solutionrelative:service\\dishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|c:\\randika\\project_app\\restaurant\\views\\dish\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|solutionrelative:views\\dish\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|c:\\randika\\project_app\\restaurant\\views\\dish\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|solutionrelative:views\\dish\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|c:\\randika\\project_app\\restaurant\\views\\dish\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|solutionrelative:views\\dish\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|c:\\randika\\project_app\\restaurant\\service\\idishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +31,12 @@
       "RelativeMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|solutionrelative:viewmodels\\dishviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|c:\\randika\\project_app\\restaurant\\views\\dish\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|solutionrelative:views\\dish\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|c:\\randika\\project_app\\restaurant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|c:\\randika\\project_app\\restaurant\\models\\dishingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|solutionrelative:models\\dishingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{420CAF68-5709-4843-A048-A255822455D7}|Restaurant.csproj|c:\\randika\\project_app\\restaurant\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -70,15 +78,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Views\\Dish\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Dish\\Create.cshtml",
-              "ToolTip": "C:\\Randika\\Project_App\\Restaurant\\Views\\Dish\\Create.cshtml",
-              "RelativeToolTip": "Views\\Dish\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Views\\Dish\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dish\\Detail.cshtml",
+              "ToolTip": "C:\\Randika\\Project_App\\Restaurant\\Views\\Dish\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Dish\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T22:09:29.367Z"
+              "WhenOpened": "2025-03-22T09:12:14.137Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -88,14 +97,53 @@
               "RelativeDocumentMoniker": "Controllers\\DishController.cs",
               "ToolTip": "C:\\Randika\\Project_App\\Restaurant\\Controllers\\DishController.cs",
               "RelativeToolTip": "Controllers\\DishController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACgAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T21:11:57.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Views\\Dish\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dish\\Create.cshtml",
+              "ToolTip": "C:\\Randika\\Project_App\\Restaurant\\Views\\Dish\\Create.cshtml",
+              "RelativeToolTip": "Views\\Dish\\Create.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T22:09:29.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DishService.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Service\\DishService.cs",
+              "RelativeDocumentMoniker": "Service\\DishService.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\Restaurant\\Service\\DishService.cs",
+              "RelativeToolTip": "Service\\DishService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T19:44:18.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "IDishService.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Service\\IDishService.cs",
+              "RelativeDocumentMoniker": "Service\\IDishService.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\Restaurant\\Service\\IDishService.cs",
+              "RelativeToolTip": "Service\\IDishService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T19:42:59.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Views\\Dish\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Dish\\Index.cshtml",
@@ -103,59 +151,51 @@
               "RelativeToolTip": "Views\\Dish\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T20:16:55.223Z"
+              "WhenOpened": "2025-03-21T20:16:55.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DishViewModel.cs",
               "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\ViewModels\\DishViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\DishViewModel.cs",
               "ToolTip": "C:\\Randika\\Project_App\\Restaurant\\ViewModels\\DishViewModel.cs",
               "RelativeToolTip": "ViewModels\\DishViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T19:47:01.423Z"
+              "WhenOpened": "2025-03-21T19:47:01.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DishService.cs",
-              "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Service\\DishService.cs",
-              "RelativeDocumentMoniker": "Service\\DishService.cs",
-              "ToolTip": "C:\\Randika\\Project_App\\Restaurant\\Service\\DishService.cs",
-              "RelativeToolTip": "Service\\DishService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T19:44:18.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IDishService.cs",
-              "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Service\\IDishService.cs",
-              "RelativeDocumentMoniker": "Service\\IDishService.cs",
-              "ToolTip": "C:\\Randika\\Project_App\\Restaurant\\Service\\IDishService.cs",
-              "RelativeToolTip": "Service\\IDishService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T19:42:59.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Randika\\Project_App\\Restaurant\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAArwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T21:23:45.081Z"
+              "WhenOpened": "2025-03-21T21:23:45.081Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "DishIngredient.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Models\\DishIngredient.cs",
+              "RelativeDocumentMoniker": "Models\\DishIngredient.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\Restaurant\\Models\\DishIngredient.cs",
+              "RelativeToolTip": "Models\\DishIngredient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T08:19:32.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -167,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "RestaurantContext.cs",
               "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Data\\RestaurantContext.cs",
               "RelativeDocumentMoniker": "Data\\RestaurantContext.cs",
@@ -179,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "20250320233941_Initial Migration.Designer.cs",
               "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Migrations\\20250320233941_Initial Migration.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20250320233941_Initial Migration.Designer.cs",
@@ -191,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "20250320233941_Initial Migration.cs",
               "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Migrations\\20250320233941_Initial Migration.cs",
               "RelativeDocumentMoniker": "Migrations\\20250320233941_Initial Migration.cs",
@@ -203,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "20250321182517_MigrationName.cs",
               "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Migrations\\20250321182517_MigrationName.cs",
               "RelativeDocumentMoniker": "Migrations\\20250321182517_MigrationName.cs",
@@ -215,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "RestaurantContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Migrations\\RestaurantContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\RestaurantContextModelSnapshot.cs",
@@ -227,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "20250321182517_MigrationName.Designer.cs",
               "DocumentMoniker": "C:\\Randika\\Project_App\\Restaurant\\Migrations\\20250321182517_MigrationName.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20250321182517_MigrationName.Designer.cs",

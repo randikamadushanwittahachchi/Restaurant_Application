@@ -6,6 +6,6 @@ namespace Restaurant.Service;
 public interface IDishService
 {
     Task<List<DishViewModel>> GetDishes();
-    Task<DishViewModel> GetDish(int id);
+    Task<DishViewModel?> GetDish(int id);
     Task<Dish> CreateDish(DishViewModel dish);
 }

@@ -1,11 +1,11 @@
-﻿@model Restaurant.Models.Dish
+﻿@model Restaurant.ViewModels.DishViewModel
 
 @{
     ViewData["Title"] = "Create";
 }
 
 <div class="container">
-    <form method="post" asp-controller="DishController" asp-action="Create" >
+    <form method="post" asp-controller="Dish" asp-action="Create" >
         <div>
             <label asp-for="Name" class="form-label">Enter Dish Name</label>
             <input asp-for="Name" class="form-control" />
