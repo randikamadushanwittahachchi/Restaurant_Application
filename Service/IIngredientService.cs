@@ -5,7 +5,8 @@ namespace Restaurant.Service;
 
 public interface IIngredientService
 {
-    Task<List<IngredientViewModel>> GetIngredients();
-    Task<IngredientViewModel?> GetIngredient(int id);
+    //Task<List<IngredientViewModel>> GetIngredients();
+    //Task<IngredientViewModel?> GetIngredient(int id);
     Task<Ingredient> CreateIngredient(IngredientViewModel ingredient);
+    Task<List<IngredientViewModel>?> SearchIngredient(string name);
 }

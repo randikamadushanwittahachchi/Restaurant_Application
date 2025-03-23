@@ -1,10 +1,24 @@
 ﻿@using Restaurant.ViewModels
 @model List<DishViewModel>
 @{
-    ViewBag.Title = "Restuarent";
+    ViewBag.Title = "Restaurent";
 }
 <div class="container">
     <h2>Sri Lanakan Authentic Restuarent</h2>
+
+    <input id="searchText" name="name" class="form-control mx-2 mb-2" type="text" placeholder="Serching Ingredient"/>
+
+    <div id="ingredientList" class="container"></div>
+
+    @if(TempData["ErrorMessage"] != null)
+    {
+        <div class=" alert alert-danger alert-dismissible fade show my-2" role="alert" >
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close" ></button>
+        </div>
+    }
+
+
     @foreach (var dish in Model)
     {
         <div class="d-flex flex-column gap-3 mb-3">
@@ -14,3 +28,27 @@
         </div>
     }
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+        function loadIngredient(query=""){
+            $.ajax({
+                url:"/Ingredient/SearchIngredient",
+                type:"GET",
+                data:{name:query},
+                success:function(data){
+                    $("#ingredientList").empty();
+                    $.each(data, function(i,ingredient){
+                        $("#ingredientList").append(`<p class="dropdown-item">${ingredient.name}</p>`);
+                    })}
+
+            })
+        }
+        loadIngredient();
+
+        $("#searchText").on("keyup", function(){
+            var value = $(this).val();
+            loadIngredient(value);
+        } );
+    });
+</script>

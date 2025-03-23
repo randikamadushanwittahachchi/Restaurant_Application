@@ -1,0 +1,15 @@
+﻿@model Restaurant.ViewModels.IngredientViewModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container">
+    <form asp-controller="Ingredient" asp-action="Create" method="post">
+        <div class="form-grop mb-3">
+            <label asp-for="Name" class="form-label" >Enter Ingredient</label>
+            <input asp-for="Name" type="text" class="form-control" placeholder="Enter Ingredient" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary" >Submit</button>
+    </form>
+</div>

@@ -7,10 +7,8 @@ namespace Restaurant.Controllers;
 public class DishController : Controller
 {
     private readonly IDishService _dishService;
-    private readonly IIngredientService _ingredientService;
-    public DishController(IDishService dishService,IIngredientService ingredientService)
+    public DishController(IDishService dishService)
     {
-        _ingredientService = ingredientService;
         _dishService = dishService;
     }
 
@@ -18,7 +16,6 @@ public class DishController : Controller
     public async Task<IActionResult> Index()
     {
         var dishes = await _dishService.GetDishes();
-        ViewData["ingredients"] = _ingredientService.GetIngredients();
         return View(dishes);
     }
 
