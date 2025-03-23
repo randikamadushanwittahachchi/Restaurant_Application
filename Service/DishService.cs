@@ -32,13 +32,24 @@ public class DishService : IDishService
 
     public async Task<DishViewModel?> GetDish(int id)
     {
-        return await _context.Dishes.Where(d=>d.Id==id).Select(d=>new DishViewModel
+        var dish = await _context.Dishes.Include(d => d.DishIngredients).ThenInclude(di => di.Ingredient).FirstOrDefaultAsync(d=>d.Id==id);
+        if (dish == null)
         {
-            Id = d.Id,
-            Name = d.Name,
-            Price = d.Price,
-            ImageUrl = d.ImageUrl
-        }).FirstOrDefaultAsync();
+            return null;
+        }
+        var dishViewModel = new DishViewModel
+        {
+            Id = dish.Id,
+            Name = dish.Name,
+            Price = dish.Price,
+            ImageUrl = dish.ImageUrl,
+            Ingredients = dish.DishIngredients.Select(di => new IngredientViewModel
+            {
+                Id = di.Ingredient.Id,
+                Name = di.Ingredient.Name
+            }).ToList()
+        };
+        return dishViewModel;
     }
 
     public async Task<List<DishViewModel>> GetDishes()

@@ -9,6 +9,6 @@ public class Dish
 
     public double Price { get; set; }
 
-    public List<DishIngredient>? DishIngredient { get; set; }
+    public List<DishIngredient>? DishIngredients { get; set; }
 
 }

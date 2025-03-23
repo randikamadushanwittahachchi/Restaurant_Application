@@ -1,4 +1,6 @@
-﻿namespace Restaurant.ViewModels;
+﻿using Restaurant.Models;
+
+namespace Restaurant.ViewModels;
 
 public class DishViewModel
 {
@@ -6,7 +8,8 @@ public class DishViewModel
     public string Name { get; set; } = null!;
     public double Price { get; set; }
     public string ImageUrl { get; set; } = null!;
-    public List<string>? Ingredients { get; set; }
+    public List<DishIngredient>? DishIngredients { get; set; }
+    public List<IngredientViewModel>? Ingredients { get; set; }
     public string FormattedPrice => Price.ToString("C");
 
 }

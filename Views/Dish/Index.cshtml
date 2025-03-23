@@ -6,13 +6,18 @@
 <div class="container">
     <h2>Sri Lanakan Authentic Restuarent</h2>
 
-    <input id="searchText" name="name" class="form-control mx-2 mb-2" type="text" placeholder="Serching Ingredient"/>
+    <div class="container mt-3">
+        <div class="position-relative">
+            <input id="searchText" name="name" class="form-control mx-2 mb-2" type="text" placeholder="Serching Ingredient" autocomplete="off"/>
+            <div id="ingredientList" class="dropdown-menu w-100 position-absolute container" style="top:114%; left:0.5%;z-index:2;display:none" ></div>
+        </div>
+    </div>
 
-    <div id="ingredientList" class="container"></div>
+
 
     @if(TempData["ErrorMessage"] != null)
     {
-        <div class=" alert alert-danger alert-dismissible fade show my-2" role="alert" >
+        <div class="alert alert-danger alert-dismissible fade show my-2" role="alert" >
             @TempData["ErrorMessage"]
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close" ></button>
         </div>
@@ -22,7 +27,9 @@
     @foreach (var dish in Model)
     {
         <div class="d-flex flex-column gap-3 mb-3">
-            <img src="@dish.ImageUrl"/>
+            <a asp-controller="Dish" asp-action="Detail" asp-route-id="@dish.Id">
+                <img src="@dish.ImageUrl"/>
+            </a>
             <p>@dish.Name</p>
             <p>@dish.FormattedPrice</p>
         </div>
@@ -37,18 +44,39 @@
                 type:"GET",
                 data:{name:query},
                 success:function(data){
-                    $("#ingredientList").empty();
-                    $.each(data, function(i,ingredient){
-                        $("#ingredientList").append(`<p class="dropdown-item">${ingredient.name}</p>`);
-                    })}
-
+                    if(data.length > 0){
+                        $("#ingredientList").empty().show();
+                        $.each(data, function(i,ingredient){
+                            $("#ingredientList").append(`<a href="#" class="dropdown-item">${ingredient.name}</a>`);
+                        });
+                    }else if(query.length>0){
+                        $("#ingredientList").empty().show();
+                        $("#ingredientList").append(`<span class="dropdown-item text-muted">No results found</span>`);
+                    }}
             })
         }
         loadIngredient();
 
+        $(document).on("click", ".dropdown-item", function () {
+            if(data.length>0){
+                $("#searchText").val($(this).text());
+                $("#ingredientList").hide();
+            }
+        });
+
+         $(document).click(function (e) {
+            if (!$(e.target).closest('.position-relative').length) {
+                $("#ingredientList").hide();
+            }
+        });
+
         $("#searchText").on("keyup", function(){
             var value = $(this).val();
-            loadIngredient(value);
+            if(value.length > 0){
+                loadIngredient(value);
+            }else{
+                $("#ingredientList").hide();   
+            }
         } );
     });
 </script>

@@ -7,4 +7,15 @@
     <h2>@Model.Name</h2>
     <img src="@Model.ImageUrl"/>
     <p>@Model.FormattedPrice</p>
+
+    <div class="container">
+        <h3>Ingredients</h3>
+        @foreach (var ingredient in Model.Ingredients)
+        {
+            <p>@ingredient.Name</p>
+        }
+    </div>
+
+
 </div>
+
